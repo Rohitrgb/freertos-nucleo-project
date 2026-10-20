@@ -1,0 +1,7 @@
+build/
+Debug/
+Release/
+.DS_Store
+*.o
+*.elf
+*.map
