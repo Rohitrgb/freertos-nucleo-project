@@ -11,3 +11,8 @@ target_link_libraries(test_ringbuf PRIVATE core unity)
 target_compile_options(test_ringbuf PRIVATE -Wall -Wextra)
 add_test(NAME ringbuf COMMAND test_ringbuf)
 
+
+add_executable(test_cmd_parser test_cmd_parser.c)
+target_link_libraries(test_cmd_parser PRIVATE core unity)
+target_compile_options(test_cmd_parser PRIVATE -Wall -Wextra)
+add_test(NAME cmd_parser COMMAND test_cmd_parser)
