@@ -1,4 +1,5 @@
-Rohitrgb/freertos-nucleo-project
+![CI](https://github.com/Rohitrgb/freertos-nucleo-project/actions/workflows/ci.yml/badge.svg)
+
 ## Running the host tests
 
     cmake -S . -B build -G Ninja
