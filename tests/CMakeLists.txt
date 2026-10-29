@@ -16,3 +16,8 @@ add_executable(test_cmd_parser test_cmd_parser.c)
 target_link_libraries(test_cmd_parser PRIVATE core unity)
 target_compile_options(test_cmd_parser PRIVATE -Wall -Wextra)
 add_test(NAME cmd_parser COMMAND test_cmd_parser)
+
+add_executable(test_debounce test_debounce.c)
+target_link_libraries(test_debounce PRIVATE core unity)
+target_compile_options(test_debounce PRIVATE -Wall -Wextra)
+add_test(NAME debounce COMMAND test_debounce)
